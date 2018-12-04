@@ -3,7 +3,7 @@
 		Register New User
 	</mat-card-title>
 	<mat-card-content>
-		<form>
+		<form id="regForm" #userData="ngForm" (ngSubmit)="registerUser(userData.value)">
 			<mat-form-field>
 				<input matInput placeholder="firstName" name="firstName" type="text" ngModel />
 			</mat-form-field>

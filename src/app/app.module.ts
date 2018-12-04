@@ -13,6 +13,10 @@ import { PagecontentComponent } from './pagecontent/pagecontent.component';
 import { ServerComponent } from './server/server.component';
 import { RegisterComponent } from './register/register.component';
 
+import { LoginComponent } from './login/login.component';
+import { PatientInfoComponent } from './patient-info/patient-info.component';
+import { HeaderComponent } from './header/header.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,7 +24,10 @@ import { RegisterComponent } from './register/register.component';
     ImagecarouselComponent,
     PagecontentComponent,
     ServerComponent,
-    RegisterComponent
+    RegisterComponent,
+    LoginComponent,
+    PatientInfoComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
